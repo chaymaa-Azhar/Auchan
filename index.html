@@ -1,34 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
     <script type="module" src="js/main.js"></script>
     <title>Aushan</title>
-</head>
-<body class="bg-gray-100 ">
+  </head>
+  <body class="bg-gray-100">
     <header>
-        <nav class="bg-white flex  gap-3 p-3 md:flex-row md:items-center md:justify-between md:p-4  " >
-            <img src="assets/pictures/logo.png " alt="Aushan" class="h-10 md:h-20">
-            <input id="search-input" type="search" placeholder="recherche un produit..."  class="w-full border-gray-400 md:max-w-2xl md:focus:ring-4  ">
-            <button>
-                <span>🛒</span>
-                <span id="cart-total">0,00</span>
-                <span id="cart-count">0</span>
-            </button>
-        </nav>
+      <nav class="bg-white flex items-center gap-3 md:p-4">
+        <img
+          src="assets/pictures/logo.png "
+          alt="Aushan"
+          class="h-10 md:h-20"
+        />
+        <input
+          id="search-input"
+          type="search"
+          placeholder="recherche un produit..."
+          class="w-full border-gray-400 md:max-w-2xl md:focus:ring-4"
+        />
+        <button
+          id="cart-button"
+          class="flex items-center gap-2 font-bold text-red-600 border-trensparent"
+        >
+          <span>🛒</span>
+          <span id="cart-total">0,00</span>
+          <span id="cart-count">0</span>
+        </button>
+      </nav>
     </header>
     <main>
-        <h1 class="font-bold text-3xl text-red-800 p-4">no produit</h1>
-        <section>
-            
-            <article>
-                
-            </article>
-        </section>
+      <h1 class="font-bold text-2xl text-red-800 p-4">no produit</h1>
+      <section
+        class="bg-white roundes-lg shadow p-3 mb-6 flex flex-col gap-3 md:flex-row md:items-center"
+      >
+        <select
+          id="category-filter"
+          class="w-fll border border-gray-300 rounded-lg px-3 py-2 md:w-auto"
+        >
+          <option value="all">Toutes les categories</option>
+          <option value="vetement">Vêtements</option>
+          <option value="electronique">Électronique</option>
+        </select>
+        <select
+          id="sort-select"
+          class="w-full border border-gray-300 rounded-lg px-3 py-2 md:w-auto"
+        >
+          <option value="default">Trier par</option>
+          <option value="price-asc">Prix croissant</option>
+          <option value="price-desc">Prix décroissant</option>
+          <option value="name-asc">Nom A-Z</option>
+        </select>
+        <select
+          id="per-page-select"
+          class="w-full border border-gray-300 rounded-lg px-3 py-2 md:w-auto"
+        >
+          <option value="4">4 par page</option>
+          <option value="8" selected>8 par page</option>
+          <option value="12">12 par page</option>
+        </select>
+
+        <div class="flex gap-2 md:ml-auto">
+          <button
+            id="grid-view-btn"
+            class="flex-1 px-3 py-2 rounded-lg bg-red-600 text-white md:flex-none"
+          >
+            Grille
+          </button>
+          <button
+            id="list-view-btn"
+            class="flex-1 px-3 py-2 rounded-lg bg-gray-200 text-gray-700 md:flex-none"
+          >
+            Liste
+          </button>
+        </div>
+      </section>
+
+      <section
+        id="products-container"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+      ></section>
+      <!--cree carts renderProducts() et change class toggleView() -->
+
+      <nav
+        id="pagination"
+        class="flex justify-center items-center gap-2 mt-6"
+      ></nav>
+      <!--renderPagination() -->
+
+      <section id="cart-panel" class="bg-white rounded-lg shadow p-4 mt-8">
+        <h2 class="font-bold text-xl mb-3">Mon panier</h2>
+
+        <p id="cart-empty" class="text-gray-500">Votre panier est vide.</p>
+
+        <div id="cart-items" class="flex flex-col gap-3"></div>
+
+        <div
+          class="flex flex-col gap-3 mt-4 pt-4 border-t border-gray-200 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <button
+            id="clear-cart-btn"
+            class="border border-gray-300 rounded-lg px-3 py-2 text-gray-700"
+          >
+            Vider le panier
+          </button>
+          <p class="font-bold text-lg">
+            Total : <span id="cart-grand-total">0,00 €</span>
+          </p>
+        </div>
+      </section>
+      
     </main>
     <footer></footer>
-    
- </body>
+  </body>
 </html>
