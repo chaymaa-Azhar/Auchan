@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "T-shirt",
+    "category": "Vêtements",
+    "price": 20,
+    "image": "https://placehold.co/300x200/dc2626/ffffff?text=T-shirt",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "id": 2,
+    "name": "Jean",
+    "category": "Vêtements",
+    "price": 45,
+    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Jean",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "id": 3,
+    "name": "Pull",
+    "category": "Vêtements",
+    "price": 35,
+    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Pull",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "id": 4,
+    "name": "Veste",
+    "category": "Vêtements",
+    "price": 80,
+    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Veste",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "id": 5,
+    "name": "Robe",
+    "category": "Vêtements",
+    "price": 55,
+    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Robe",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "id": 6,
+    "name": "Short",
+    "category": "Vêtements",
+    "price": 25,
+    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Short",
+    "sizes": ["M", "L", "XL"]
+  },
+  {
+    "id": 7,
+    "name": "Casque",
+    "category": "Électronique",
+    "price": 89,
+    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Casque",
+    "sizes": []
+  },
+  {
+    "id": 8,
+    "name": "Smartphone",
+    "category": "Électronique",
+    "price": 299,
+    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Smartphone",
+    "sizes": []
+  },
+  {
+    "id": 9,
+    "name": "Montre connectée",
+    "category": "Électronique",
+    "price": 120,
+    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Montre",
+    "sizes": []
+  },
+  {
+    "id": 10,
+    "name": "Clavier",
+    "category": "Électronique",
+    "price": 45,
+    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Clavier",
+    "sizes": []
+  },
+  {
+    "id": 11,
+    "name": "Souris",
+    "category": "Électronique",
+    "price": 25,
+    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Souris",
+    "sizes": []
+  },
+  {
+    "id": 12,
+    "name": "Enceinte",
+    "category": "Électronique",
+    "price": 59,
+    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Enceinte",
+    "sizes": []
+  }
+]
