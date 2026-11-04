@@ -1,5 +1,6 @@
 import{ fetchproduct } from "./api.js";
 import { saveproduct,leadproduct } from "./storage.js";
+import { renderProduct } from "./ui.js"
 async function init(){
     try {
         let products= leadproduct();
@@ -7,7 +8,7 @@ async function init(){
         products = await fetchproduct();
         saveproduct(products)
         }
-        console.log(products);
+        renderProduct(products)
     }catch (error){
         console.error(error);
     }
