@@ -13,4 +13,3 @@ export const renderProduct = (product)=>{
   container.innerHTML=product.map(createproductCart).join("");
 }
 
-
