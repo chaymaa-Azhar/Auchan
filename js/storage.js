@@ -16,3 +16,4 @@ export function leadcarts(){
     const data = localStorage.getItem(cart)
     return data ? JSON.parse(data) : null;
 }
+
