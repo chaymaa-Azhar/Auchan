@@ -3,7 +3,7 @@ import { saveproduct,leadproduct } from "./storage.js";
 import { renderProduct, renderPagination } from "./ui.js"
 import { searchproduct,filterByCategory, getTotalPages, paginate } from "./products.js";
 let products=[]
-const state ={query:"",category:"all", page:1, perPage:8 };
+const state ={query:"",category:"all", page:1, perPage:4 };
 
 const update=()=>{
         const searched =searchproduct(products,state.query);
@@ -22,7 +22,7 @@ async function init(){
         saveproduct(products)
         }
         
-        renderProduct(products) //afficher product
+        update(); //afficher product
     }catch (error){
         console.error(error);
     }
