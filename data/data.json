@@ -4,7 +4,7 @@
     "name": "T-shirt",
     "category": "Vêtements",
     "price": 20,
-    "image": "https://placehold.co/300x200/dc2626/ffffff?text=T-shirt",
+    "image": "assets/pictures/Tshirt.png",
     "sizes": ["M", "L", "XL"]
   },
   {
@@ -12,7 +12,7 @@
     "name": "Jean",
     "category": "Vêtements",
     "price": 45,
-    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Jean",
+    "image": "assets/pictures/jean.png",
     "sizes": ["M", "L", "XL"]
   },
   {
@@ -20,7 +20,7 @@
     "name": "Pull",
     "category": "Vêtements",
     "price": 35,
-    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Pull",
+    "image": "assets/pictures/pull.png",
     "sizes": ["M", "L", "XL"]
   },
   {
@@ -28,7 +28,7 @@
     "name": "Veste",
     "category": "Vêtements",
     "price": 80,
-    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Veste",
+    "image": "assets/pictures/jacket.png",
     "sizes": ["M", "L", "XL"]
   },
   {
@@ -36,15 +36,15 @@
     "name": "Robe",
     "category": "Vêtements",
     "price": 55,
-    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Robe",
+    "image": "assets/pictures/Robe.png",
     "sizes": ["M", "L", "XL"]
   },
   {
     "id": 6,
-    "name": "Short",
+    "name": "casquette",
     "category": "Vêtements",
     "price": 25,
-    "image": "https://placehold.co/300x200/dc2626/ffffff?text=Short",
+    "image": "assets/pictures/casquette.png",
     "sizes": ["M", "L", "XL"]
   },
   {
@@ -52,7 +52,7 @@
     "name": "Casque",
     "category": "Électronique",
     "price": 89,
-    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Casque",
+    "image": "assets/pictures/casque.png",
     "sizes": []
   },
   {
@@ -60,7 +60,7 @@
     "name": "Smartphone",
     "category": "Électronique",
     "price": 299,
-    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Smartphone",
+    "image": "assets/pictures/smartphone.png",
     "sizes": []
   },
   {
@@ -68,7 +68,7 @@
     "name": "Montre connectée",
     "category": "Électronique",
     "price": 120,
-    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Montre",
+    "image": "assets/pictures/montre.png",
     "sizes": []
   },
   {
@@ -76,7 +76,7 @@
     "name": "Clavier",
     "category": "Électronique",
     "price": 45,
-    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Clavier",
+    "image": "assets/pictures/clavier.png",
     "sizes": []
   },
   {
@@ -84,7 +84,7 @@
     "name": "Souris",
     "category": "Électronique",
     "price": 25,
-    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Souris",
+    "image": "assets/pictures/souris.png",
     "sizes": []
   },
   {
@@ -92,7 +92,7 @@
     "name": "Enceinte",
     "category": "Électronique",
     "price": 59,
-    "image": "https://placehold.co/300x200/1e3a8a/ffffff?text=Enceinte",
+    "image": "assets/pictures/enceinte.png",
     "sizes": []
   }
 ]
