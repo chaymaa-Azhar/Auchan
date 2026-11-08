@@ -33,8 +33,12 @@ const layouts = {
   list: "flex flex-col gap-4",
 };
 
+const on = "flex-1 px-3 py-2 rounded-lg bg-red-600 text-white md:flex-none";
+const off = "flex-1 px-3 py-2 rounded-lg bg-gray-200 text-gray-700 md:flex-none";
 export const toggleView = (view) => {
   document.getElementById("products-container").className = layouts[view];
+  document.getElementById("grid-view-btn").className = view ==="grid" ? on : off;
+  document.getElementById("list-view-btn").className = view ==="list" ? on : off;
 };
 
 
