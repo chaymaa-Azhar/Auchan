@@ -16,5 +16,5 @@ export const paginate = (products, page, perPage) => {
 };
 
 export const getTotalPages = (products, perPage) =>
-  Math.max(1, Math.ceil(products.length / perPage));
+  Math.ceil(products.length / perPage);
 
